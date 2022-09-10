@@ -20,3 +20,12 @@
   <img src="https://user-images.githubusercontent.com/91152783/189327782-8f79b5c3-3722-47dc-bb95-26bdb1761b1a.png" title="Comanda status del servei">
 </p>
 
+<p align="center"> Per accedir a la base de dades ho fem amb la comanda següent:</p>
+<table align="center";text-align: "center";>
+  <tr >
+    <td style="width: 33%";>sudo -u postgres psql</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/189477247-c6c4f895-7c0b-4f65-967e-adac4788d718.png" title="Comanda d'accés postgres">
+</p>

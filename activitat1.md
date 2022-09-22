@@ -55,5 +55,5 @@
   </tr>
 </table>
 <p align="center">
-  <img src=!https://user-images.githubusercontent.com/91152783/191808635-7693df73-dfd7-4ac7-bfd0-bbc9f4510499.png"" title="Entrar base de dades">
+  <img src=https://user-images.githubusercontent.com/91152783/191808635-7693df73-dfd7-4ac7-bfd0-bbc9f4510499.png"" title="Entrar base de dades">
 </p>

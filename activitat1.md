@@ -60,11 +60,11 @@
                                                                                                                                                 <p align="center">Ara fem la creació de la base de dades amb un serial, un varchar i un integer</p>
 <table align="center";text-align: "center";>
   <tr >
-    <td style="width: 33%";>"CREATE TABLE estatsACS (
+    <td style="width: 33%";>CREATE TABLE estatsACS (
 	id serial PRIMARY KEY,
 	nom VARCHAR (20),
 	superficie INT
-);"</td>
+);</td>
   </tr>
 </table>
 <p align="center">

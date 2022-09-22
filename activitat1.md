@@ -57,3 +57,16 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/191808635-7693df73-dfd7-4ac7-bfd0-bbc9f4510499.png"" title="Entrar base de dades">
 </p>
+                                                                                                                                                <p align="center">Ara fem la creació de la base de dades amb un serial, un varchar i un integer</p>
+<table align="center";text-align: "center";>
+  <tr >
+    <td style="width: 33%";>"CREATE TABLE estatsACS (
+	id serial PRIMARY KEY,
+	nom VARCHAR (20),
+	superficie INT
+);"</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/191812173-18250cf5-c16c-4bf6-b920-ca55fb017bf1.png" title="Entrar base de dades">
+</p>

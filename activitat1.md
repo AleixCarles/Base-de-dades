@@ -39,3 +39,12 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/191807200-4c75ea85-33b7-47e5-86bc-2406709255d7.png" title="Base de dades creada">
 </p>
+<p align="center">Per veure les base de dades que tenim farem el seguent:</p>
+<table align="center";text-align: "center";>
+  <tr >
+    <td style="width: 33%";>\l</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/191808105-2d90ea9a-20e6-488c-afbb-02a333212d8e.png" title="Llista base de dades">
+</p>

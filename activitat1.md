@@ -37,5 +37,5 @@
   </tr>
 </table>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/91152783/189477981-a2d376ad-4a66-4bcb-bdaa-25faca574dce.png" title="Base de dades creada">
+  <img src="https://user-images.githubusercontent.com/91152783/191807200-4c75ea85-33b7-47e5-86bc-2406709255d7.png" title="Base de dades creada">
 </p>

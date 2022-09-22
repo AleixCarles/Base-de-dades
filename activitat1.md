@@ -48,3 +48,12 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/191808105-2d90ea9a-20e6-488c-afbb-02a333212d8e.png" title="Llista base de dades">
 </p>
+<p align="center">Per entrar a la base de dades farem:</p>
+<table align="center";text-align: "center";>
+  <tr >
+    <td style="width: 33%";>\lc "nom de la base de dades"</td>
+  </tr>
+</table>
+<p align="center">
+  <img src=!https://user-images.githubusercontent.com/91152783/191808635-7693df73-dfd7-4ac7-bfd0-bbc9f4510499.png"" title="Entrar base de dades">
+</p>

@@ -33,7 +33,7 @@
 <p align="center">Per crear la base de dades haurem de ficar una vegada dins de postgres aquesta línia:</p>
 <table align="center";text-align: "center";>
   <tr >
-    <td style="width: 33%";>CREATE DATABASE "nom de la base de dades"</td>
+    <td style="width: 33%";>CREATE DATABASE "nom de la base de dades";</td>
   </tr>
 </table>
 <p align="center">

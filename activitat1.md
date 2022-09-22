@@ -51,7 +51,7 @@
 <p align="center">Per entrar a la base de dades farem:</p>
 <table align="center";text-align: "center";>
   <tr >
-    <td style="width: 33%";>\lc "nom de la base de dades"</td>
+    <td style="width: 33%";>\c "nom de la base de dades"</td>
   </tr>
 </table>
 <p align="center">

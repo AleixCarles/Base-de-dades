@@ -77,8 +77,7 @@
 <table align="center";text-align: "center";>
   <tr >
     <td style="width: 33%";>INSERT INTO (nom de la taula)(valor1,valor2)
-VALUES ('valor1','valor2'), ('valor1','valor2'), ('valor1','valor2')
-);</td>
+VALUES ('valor1','valor2'), ('valor1','valor2'), ('valor1','valor2');</td>
   </tr>
 </table>
 <p align="center">

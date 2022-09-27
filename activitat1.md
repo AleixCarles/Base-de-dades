@@ -104,7 +104,7 @@ VALUES ('valor1','valor2'), ('valor1','valor2'), ('valor1','valor2');</td>
 <table align="center";text-align: "center";>
   <tr >
     <td style="width: 33%";>INSERT INTO (nom de la taula)(valor1,valor2,valor3(id_estat)
-VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat);<td>
+VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat);</td>
   </tr>
 </table>
 <p align="center">
@@ -114,9 +114,18 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 <p align="center">Aqui podem veure amb un select una part dels estats que hem afegit:</p>
 <table align="center";text-align: "center";>
   <tr >
-    <td style="width: 33%";>select * from estatsacs;<td>
+	  <td style="width: 33%";>select * from estatsacs;</td>
   </tr>
 </table>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/192504007-435cbdfb-297a-4c65-9573-24c3eb3c1412.png" title="Select dels estats">
+</p>
+<p align="center">Aqui podem veure amb un select una part de les ciutats que hem afegit:</p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>select * from ciutatsacs;</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/192506608-91e464ee-3a98-41dc-92bf-2ed21b6f3b4f.png" title="Select de les ciutats">
 </p>

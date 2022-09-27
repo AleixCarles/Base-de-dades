@@ -145,3 +145,21 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/192622095-d856a0cf-fbf2-4b0d-897e-c4810704b399.png" title="Select de resultat de estats mes gran 200km">
 </p>
+
+
+<p align="center">Ara farem el mateix pero ara tenim que buscar <strong>tots els estats amb una superfície més petita que 100.000 Km2 i més gran que 20.000 Km2</strong></p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>SELECT nom, superficie  
+                        FROM estatsacs  
+                    WHERE superficie < 100000 AND superficie>20000;</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/192624388-24fe20a9-bbe2-493b-8800-ac62266652de.png" title="Select de estats mes petit 100km i mes gran de 20km">
+</p>
+<p align="center">El resultat es aquest:</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/192625123-dba0bd5e-bdc2-46fa-ba9e-891ebf860b27.png" title="Select de resultat de estats mes petit 100km i mes gran de 20km">
+</p>
+

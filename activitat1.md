@@ -147,7 +147,7 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 </p>
 
 
-<p align="center">Ara farem el mateix pero ara tenim que buscar <strong>tots els estats amb una superfície més petita que 100.000 Km2 i més gran que 20.000 Km2</strong></p>
+<p align="center">Ara farem el mateix pero ara tenim que buscar <strong>tots els estats amb una superfície més petita que 100.000Km2 i més gran que 20.000Km2</strong></p>
 <table align="center";text-align: "center";>
   <tr >
 	  <td style="width: 33%";>SELECT nom, superficie  

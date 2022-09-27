@@ -163,3 +163,35 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
   <img src="https://user-images.githubusercontent.com/91152783/192625123-dba0bd5e-bdc2-46fa-ba9e-891ebf860b27.png" title="Select de resultat de estats mes petit 100km i mes gran de 20km">
 </p>
 
+<p align="center">Ara farem el SELECT el qual tenim que buscar <strong>totes les ciutats amb més de 1.000.000 d'habitants</strong></p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>SELECT nom, habitants  
+                        FROM ciutatsacs  
+                    WHERE habitants > 1000000</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/192626240-06223f7c-0d6b-44fb-8e8e-402ac1e25f06.png" title="Select de les ciutats amb més de 1.000.000 d'habitants">
+</p>
+<p align="center">El resultat es aquest:</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/192626313-bb74f0d6-c64e-40b3-aa66-3cf8c886207e.png" title="Select de resultat de les ciutats amb més de 1.000.000 d'habitants">
+</p>
+
+<p align="center">Ara farem el SELECT el qual tenim que buscar <strong>totes les ciutats amb menys de 1.000.000 d'habitants i més de 650.000 habitants</strong></p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>SELECT nom, habitants  
+                        FROM ciutatsacs  
+                    WHERE habitants < 1000000 AND habitants > 650000</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/192626874-ff896bc1-c00e-4084-974c-3322609f9d88.png" title="Select de les ciutats amb menys de 1.000.000 d'habitants i més de 650.000 habitants">
+</p>
+<p align="center">El resultat es aquest:</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/192626934-1ef9cb29-3848-4c7c-8317-da1def3c9578.png" title="Select de resultat de les ciutats amb menys de 1.000.000 d'habitants i més de 650.000 habitants">
+</p>
+

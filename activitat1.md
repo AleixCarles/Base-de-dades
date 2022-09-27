@@ -70,7 +70,7 @@
   </tr>
 </table>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/91152783/191812173-18250cf5-c16c-4bf6-b920-ca55fb017bf1.png" title="Entrar base de dades">
+  <img src="https://user-images.githubusercontent.com/91152783/191812173-18250cf5-c16c-4bf6-b920-ca55fb017bf1.png" title="Creant taula a la base de dades">
 </p>
 
 <p align="center">Ara fem els inserts on afegim les dades que hi han a la taula</p>

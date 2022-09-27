@@ -129,3 +129,15 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/192506608-91e464ee-3a98-41dc-92bf-2ed21b6f3b4f.png" title="Select de les ciutats">
 </p>
+
+<p align="center">Ara farem el SELECT des de python el qual tenim que buscar <strong>tots els estats amb una superfície més gran que 200.000 Km2</p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>SELECT nom, superficie  
+                        FROM estatsacs  
+                        WHERE superficie > 200000;</td>
+  </tr>
+</table>
+<p align="center">
+  <img src=https://user-images.githubusercontent.com/91152783/192621201-28cdb72b-aec4-4fc1-8874-1536feabc6ab.png"" title="Select de estats mes gran 200km ">
+</p>

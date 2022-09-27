@@ -55,9 +55,11 @@
   </tr>
 </table>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/91152783/191808635-7693df73-dfd7-4ac7-bfd0-bbc9f4510499.png"" title="Entrar base de dades">
+  <img src="https://user-images.githubusercontent.com/91152783/191808635-7693df73-dfd7-4ac7-bfd0-bbc9f4510499.png" title="Entrar base de dades">
 </p>
-                                                                                                                                                <p align="center">Ara fem la creació de la base de dades amb un serial, un varchar i un integer:</p>
+                                                                                                                                                
+																		
+<p align="center">Ara fem la creació de la base de dades amb un serial, un varchar i un integer:</p>
 <table align="center";text-align: "center";>
   <tr >
     <td style="width: 33%";>CREATE TABLE estatsACS (
@@ -69,4 +71,16 @@
 </table>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/191812173-18250cf5-c16c-4bf6-b920-ca55fb017bf1.png" title="Entrar base de dades">
+</p>
+
+<p align="center">Ara fem els inserts on afegim les dades que hi han a la taula</p>
+<table align="center";text-align: "center";>
+  <tr >
+    <td style="width: 33%";>INSERT INTO (nom de la taula)(valor1,valor2)
+VALUES ('valor1','valor2'), ('valor1','valor2'), ('valor1','valor2')
+);</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/192479999-1be8f548-94a7-420c-96a1-67b04ca0e58a.png" title="Crear insert a la base de dades">
 </p>

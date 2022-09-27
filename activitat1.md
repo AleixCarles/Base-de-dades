@@ -98,3 +98,15 @@ VALUES ('valor1','valor2'), ('valor1','valor2'), ('valor1','valor2');</td>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/192491537-dcef05d5-b4bf-4725-9866-a76d4eb1fa7a.png" title="Crear taula ciutats">
 </p>
+
+
+<p align="center">Afegim les ciutats amb el seu nom, habitants i la id del estat que esta:</p>
+<table align="center";text-align: "center";>
+  <tr >
+    <td style="width: 33%";>INSERT INTO (nom de la taula)(valor1,valor2,valor3(id_estat)
+VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat);<td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/192502229-b2fda3e7-6bb0-44ca-8437-9f26acf8eff2.png" title="Insert de ciutat">
+</p>

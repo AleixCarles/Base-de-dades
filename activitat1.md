@@ -73,7 +73,7 @@
   <img src="https://user-images.githubusercontent.com/91152783/191812173-18250cf5-c16c-4bf6-b920-ca55fb017bf1.png" title="Creant taula a la base de dades">
 </p>
 
-<p align="center">Ara fem els inserts on afegim les dades que hi han a la taula</p>
+<p align="center">Ara fem els inserts on afegim les dades que hi han a la taula:</p>
 <table align="center";text-align: "center";>
   <tr >
     <td style="width: 33%";>INSERT INTO (nom de la taula)(valor1,valor2)
@@ -83,7 +83,7 @@ VALUES ('valor1','valor2'), ('valor1','valor2'), ('valor1','valor2');</td>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/192479999-1be8f548-94a7-420c-96a1-67b04ca0e58a.png" title="Crear insert a la base de dades">
 </p>
-<p align="center">Ara creem la taula de les ciutats</p>
+<p align="center">Ara creem la taula de les ciutats:</p>
 <table align="center";text-align: "center";>
   <tr >
     <td style="width: 33%";>CREATE TABLE ciutatsACS (
@@ -109,4 +109,14 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 </table>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/192502229-b2fda3e7-6bb0-44ca-8437-9f26acf8eff2.png" title="Insert de ciutat">
+</p>
+
+<p align="center">Aqui podem veure amb un select una part dels estats que hem afegit:</p>
+<table align="center";text-align: "center";>
+  <tr >
+    <td style="width: 33%";>select * from estatsacs;<td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/192504007-435cbdfb-297a-4c65-9573-24c3eb3c1412.png" title="Select dels estats">
 </p>

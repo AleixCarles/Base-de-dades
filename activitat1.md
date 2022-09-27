@@ -139,5 +139,5 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
   </tr>
 </table>
 <p align="center">
-  <img src=https://user-images.githubusercontent.com/91152783/192621201-28cdb72b-aec4-4fc1-8874-1536feabc6ab.png"" title="Select de estats mes gran 200km ">
+  <img src="https://user-images.githubusercontent.com/91152783/192621201-28cdb72b-aec4-4fc1-8874-1536feabc6ab.png" title="Select de estats mes gran 200km">
 </p>

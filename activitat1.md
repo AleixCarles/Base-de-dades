@@ -141,3 +141,7 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/192621201-28cdb72b-aec4-4fc1-8874-1536feabc6ab.png" title="Select de estats mes gran 200km">
 </p>
+<p align="center">El resultat es aquest:</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/192622095-d856a0cf-fbf2-4b0d-897e-c4810704b399.png" title="Select de estats mes gran 200km">
+</p>

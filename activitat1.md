@@ -83,3 +83,18 @@ VALUES ('valor1','valor2'), ('valor1','valor2'), ('valor1','valor2');</td>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/192479999-1be8f548-94a7-420c-96a1-67b04ca0e58a.png" title="Crear insert a la base de dades">
 </p>
+<p align="center">Ara creem la taula de les ciutats</p>
+<table align="center";text-align: "center";>
+  <tr >
+    <td style="width: 33%";>CREATE TABLE ciutatsACS (
+	id serial PRIMARY KEY,
+	nom VARCHAR (25),
+	habitants INT,
+	estat INT,
+	FOREIGN KEY (estat) REFERENCES estatsACS (id)
+);
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/192491537-dcef05d5-b4bf-4725-9866-a76d4eb1fa7a.png" title="Crear taula ciutats">
+</p>

@@ -238,9 +238,21 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 <p align="center">Per restaurar primer de tot crearem la base de dades on voldrem ficar la copia. Després de crear-ho fem la comanda següent aquest ficara el contingut de la copia a la nova base de dades.</p>
 <table align="center";text-align: "center";>
   <tr >
-	  <td style="width: 33%";>psql "nom de la base de dades" < "nom del fitche sql on estara a la copia"</td>
+	  <td style="width: 33%";>psql "nom de la base de dades" < "nom del fitxer sql on estara a la copia"</td>
   </tr>
 </table>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/193290876-78b631cd-05ba-4719-80f7-fa48891b1588.png" title="Ficar base de dades la copia de seguretat">
 </p>
+
+<p align="center">Farem un select dins de la base de dades on hem ficat la copia per confirma que la copia esta feta correctament</p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>select * from "nom de una taula" < "nom del fitxer sql on estara a la copia"</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/193295799-f6bce2ca-dba4-483c-a815-d4bcb7cb72aa.png" title="Select per confirmar 1">	
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/193296270-d033bdd8-3395-42bf-a32c-82b514d1d9ac.png" title="Select per confirmar 2">

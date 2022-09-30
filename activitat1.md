@@ -233,5 +233,5 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
   </tr>
 </table>
 <p align="center">
-  <img src="!https://user-images.githubusercontent.com/91152783/193288515-89fb5371-ba87-495e-a2fb-24a16e7f6822.png" title="Fer copia">
+  <img src="https://user-images.githubusercontent.com/91152783/193288515-89fb5371-ba87-495e-a2fb-24a16e7f6822.png" title="Fer copia">
 </p>

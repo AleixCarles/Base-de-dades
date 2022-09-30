@@ -195,3 +195,32 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
   <img src="https://user-images.githubusercontent.com/91152783/192626934-1ef9cb29-3848-4c7c-8317-da1def3c9578.png" title="Select de resultat de les ciutats amb menys de 1.000.000 d'habitants i més de 650.000 habitants">
 </p>
 
+<p align="center">Creem un usuari root per poder fer la copia de la base de dades:</p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>CREATE USER root WITH PASSWORD 'root';</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/193284848-5038c0a2-0910-4394-bdf9-ed34b66bfd73.png" title="Creacio del usuari root">
+</p>
+
+<p align="center">Fiquem al usuari permisos a la base de dades.</p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>GRANT ALL PRIVILEGES ON DATABASE "nom de la base de dades" TO "usuari";</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/193285621-76151ce2-7601-4dc2-859d-cede68631f06.png" title="Permisos al root">
+</p>
+
+<p align="center">I fiquem al usuari que hem creat en super usuari.</p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>ALTER USER "nom del usuari" WITH superuser;</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/193286099-6ab433aa-e14a-4f95-a05a-f95e4bd6f610.png" title="Usuari en superusuari">
+</p>

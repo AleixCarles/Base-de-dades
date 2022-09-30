@@ -225,8 +225,17 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
   <img src="https://user-images.githubusercontent.com/91152783/193286099-6ab433aa-e14a-4f95-a05a-f95e4bd6f610.png" title="Usuari en superusuari">
 </p>
 
-
 <p align="center">Ara ens fiquem en mode root i fem la següent comanda per fer la copia de seguretat</p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>pg_dump "nom de la base de dades" > "ubicacio de on vols que es guarde la copia"</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/193288515-89fb5371-ba87-495e-a2fb-24a16e7f6822.png" title="Fer copia">
+</p>
+
+<p align="center">Per restaurar primer de tot crearem la base de dades on voldrem ficar la copia.</p>
 <table align="center";text-align: "center";>
   <tr >
 	  <td style="width: 33%";>pg_dump "nom de la base de dades" > "ubicacio de on vols que es guarde la copia"</td>

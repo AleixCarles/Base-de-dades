@@ -238,7 +238,7 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 <p align="center">Per restaurar primer de tot crearem la base de dades on voldrem ficar la copia. Després de crear-ho fem la comanda següent aquest ficara el contingut de la copia a la nova base de dades.</p>
 <table align="center";text-align: "center";>
   <tr >
-	  <td style="width: 33%";>pg_dump "nom de la base de dades" < "nom del fitche sql on estara a la copia"</td>
+	  <td style="width: 33%";>psql "nom de la base de dades" < "nom del fitche sql on estara a la copia"</td>
   </tr>
 </table>
 <p align="center">

@@ -256,3 +256,14 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/193296270-d033bdd8-3395-42bf-a32c-82b514d1d9ac.png" title="Select per confirmar 2">
+
+<p align="center">Farem un \l per veure la base de dades i farem el seguentt per esborrar-la:</p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>DROP DATABASE uf4acs_copia; < "nom del fitxer sql on estara a la copia"</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/193677834-9b7e9d18-d12f-483f-8443-c605fdfd767d.png" title="Esborrar copia"></p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/193677942-9e51f0cd-3e66-46f9-8e0e-e8f682c9ad97.png" title="Confirma esborrar copia">

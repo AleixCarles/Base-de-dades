@@ -302,3 +302,12 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 </table>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/194158834-e02250ae-ba4d-49d5-b451-83b48cf01052.png" title="Esborrar estats amb inferior de 100000"></p>
+  
+  <p align="center">Eliminem la taula d'estats:</p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>DROP TABLE estatsacs;</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/194160622-251651d9-59e0-408b-bb5d-f322a7a55ab3.png" title="Esborrar taula estats"></p>

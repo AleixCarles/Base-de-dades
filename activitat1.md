@@ -238,7 +238,7 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 <p align="center">Per restaurar primer de tot crearem la base de dades on voldrem ficar la copia. Després de crear-ho fem la comanda següent aquest ficara el contingut de la copia a la nova base de dades.</p>
 <table align="center";text-align: "center";>
   <tr >
-	  <td style="width: 33%";>psql "nom de la base de dades" < "nom del fitxer sql on estara a la copia"</td>
+	  <td style="width: 33%";>psql "nom de la base de dades" </td>
   </tr>
 </table>
 <p align="center">
@@ -248,7 +248,7 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 <p align="center">Farem un select dins de la base de dades on hem ficat la copia per confirma que la copia esta feta correctament</p>
 <table align="center";text-align: "center";>
   <tr >
-	  <td style="width: 33%";>select * from "nom de una taula" < "nom del fitxer sql on estara a la copia"</td>
+	  <td style="width: 33%";>select * from "nom de una taula" </td>
   </tr>
 </table>
 <p align="center">
@@ -260,10 +260,36 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 <p align="center">Farem un \l per veure la base de dades i farem el seguentt per esborrar-la:</p>
 <table align="center";text-align: "center";>
   <tr >
-	  <td style="width: 33%";>DROP DATABASE uf4acs_copia; < "nom del fitxer sql on estara a la copia"</td>
+	  <td style="width: 33%";>DROP DATABASE uf4acs_copia; </td>
   </tr>
 </table>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/193677834-9b7e9d18-d12f-483f-8443-c605fdfd767d.png" title="Esborrar copia"></p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/91152783/193677942-9e51f0cd-3e66-46f9-8e0e-e8f682c9ad97.png" title="Confirma esborrar copia">
+  <img src="https://user-images.githubusercontent.com/91152783/193677942-9e51f0cd-3e66-46f9-8e0e-e8f682c9ad97.png" title="Confirma esborrar copia"></p>
+	
+<p align="center">Ara voldrem esborrar de la taula d'estats tots els que comensen amb I. Que son aquests:</p>  
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/194153864-f1ffe573-5964-4bb2-8f66-858be7c0f2be.png" title="Indicar esborrar estats I"></p>
+
+<p align="center">Per esborrar els estats primer de tot tindrem que esborrar la constraint que hi ha lligada des de ciutats per tant farem el següent:</p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>ALTER TABLE "nom de la taula" DROP CONSTRAINT "nom de la constraint";</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/194154526-63af4b27-cab6-49da-b253-8cae0e3bcd04.png" title="Esborrar Contraint de ciutats"></p>
+  
+  <p align="center">Una vegada fet el pas anterior esborrarem ara si els estats amb la primera lletra I:</p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>DELETE FROM estatsacs WHERE nom like 'I%';</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/194155512-85898ee2-e386-401e-9a04-1359fadd1c1c.png" title="Esborrar estats amb I"></p>
+
+<p align="center">Podrem veure que si tornem a fer el select aquests ja no estaran.</p>  
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/194156918-44ee97a2-a4b8-4280-9bcb-cfaba940dd86.png" title="Indicar esborrar estats I"></p>

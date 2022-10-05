@@ -293,3 +293,12 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 <p align="center">Podrem veure que si tornem a fer el select aquests ja no estaran.</p>  
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/194156918-44ee97a2-a4b8-4280-9bcb-cfaba940dd86.png" title="Indicar esborrar estats I"></p>
+
+<p align="center">Ara esborrem tots els estats inferior a una superficie de 100.000, d'aquesta manera s'esborrar, primer faig un select per a que es veigui que sol hi han 12 i al eliminar son els que indica que s'han borrat.</p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>DELETE FROM "taula" WHARE superficie < 100000;</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/194158834-e02250ae-ba4d-49d5-b451-83b48cf01052.png" title="Esborrar estats amb inferior de 100000"></p>

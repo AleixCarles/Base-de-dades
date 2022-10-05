@@ -297,7 +297,7 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 <p align="center">Ara esborrem tots els estats inferior a una superficie de 100.000, d'aquesta manera s'esborrar, primer faig un select per a que es veigui que sol hi han 12 i al eliminar son els que indica que s'han borrat.</p>
 <table align="center";text-align: "center";>
   <tr >
-	  <td style="width: 33%";>DELETE FROM "taula" WHARE superficie < 100000;</td>
+	  <td style="width: 33%";>DELETE FROM "taula" WHERE superficie < 100000;</td>
   </tr>
 </table>
 <p align="center">

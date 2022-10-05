@@ -318,7 +318,10 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 	  <td style="width: 33%";>ALTER TABLE ciutatsacs ADD COLUMN atacsDeGodzilla integer;</td>
 	  
   </tr>
-	<p align="center">Per ficar el valor del camp 0 es fara això: </p>
+	
+</table>
+<p align="center">Per ficar el valor del camp 0 es fara això: </p>
+<table align="center";text-align: "center";>
   <tr >
 	  <td style="width: 33%";>ALTER TABLE ciutatsacs ALTER COLUMN atacsDeGodzilla SET DEFAULT 0;</td>
   </tr>

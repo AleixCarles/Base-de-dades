@@ -311,3 +311,14 @@ VALUES ('valor1','valor2',valor3(id_estat)), ('valor1','valor2',valor3(id_estat)
 </table>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91152783/194160622-251651d9-59e0-408b-bb5d-f322a7a55ab3.png" title="Esborrar taula estats"></p>
+  
+  <p align="center">Ara tenim que alterar la taula ciutatsXYZ afegint un camp que es digui atacsDeGodzilla i sigui de tipus sencer. El valor del camp serà 0.</p>
+<table align="center";text-align: "center";>
+  <tr >
+	  <td style="width: 33%";>ALTER TABLE ciutatsacs ADD COLUMN atacsDeGodzilla integer;</td>
+	  <p align="center">Per ficar el valor del camp 0 es fara això: </p>
+	  <td style="width: 33%";>ALTER TABLE ciutatsacs ALTER COLUMN atacsDeGodzilla SET DEFAULT 0;</td>
+  </tr>
+</table>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91152783/194163543-8d2ec61e-5dc5-454a-88b1-0f151bc8ccc3.png" title="Afegir atacsDeGodzilla"></p>
